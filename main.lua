@@ -34,7 +34,7 @@ local function entry(state)
 		state.original = nil
 		state.cycle = nil
 	end
-	ya.app_emit("resize", {})
+	ya.emit("resize", {})
 end
 
 local function enabled(state)
